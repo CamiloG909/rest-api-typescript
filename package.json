@@ -1,0 +1,32 @@
+{
+  "name": "ts-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node ./build/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "lint": "ts-standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloG909/rest-api-typescript.git"
+  },
+  "keywords": [],
+  "author": "CamiloG <cgalindorivera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloG909/rest-api-typescript/issues"
+  },
+  "homepage": "https://github.com/CamiloG909/rest-api-typescript#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.39",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
