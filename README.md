@@ -14,8 +14,8 @@ Deploy✨ https://ts-express.camilog909.repl.co/api/diaries
 
 ## Example body
 
-```json
-Weather {
+```typescript
+enum Weather {
 	Sunny = 'sunny',
 	Rainy = 'rainy',
 	Cloudy = 'cloudy',
@@ -24,7 +24,7 @@ Weather {
 	Thunderstorm = 'thunderstorm',
 	Stormy = 'stormy'
 }
-Visibility {
+enum Visibility {
 	Great = 'great',
 	Good = 'good',
 	Ok = 'ok',
