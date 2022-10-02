@@ -1,6 +1,6 @@
 # Rest API with Express and TypeScript
 
-Deploy✨ https://ts-express.camilog909.repl.co/api/diaries
+Deploy✨ https://ts-express-camilog90.up.railway.app/api/diaries
 
 ## Routes
 
